@@ -69,7 +69,7 @@ const NewBlogForm = () => {
   };
 
   return (
-    <div className="h-screen mt-10 mb-20 flex-col justify-between items-center bg-red-300">
+    <div className="h-screen mt-10 mb-20 flex-col justify-between items-center bg-yellow-600">
       <div className="relative top-10 max-w-lg mx-auto p-8 bg-white shadow-md rounded-lg">
         <h2 className="text-2xl font-semibold mb-4">New Blog</h2>
         <form onSubmit={handleSubmit}>

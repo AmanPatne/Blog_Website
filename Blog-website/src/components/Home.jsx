@@ -1,7 +1,5 @@
 import React,{useState,useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import logo1 from "./img/logo1.webp"
-import logo2 from "./img/logo2.webp"
 const HomePage = () => {
 
     const [blogsDisplay, setBlogsDisplay] = useState([]);
@@ -39,9 +37,9 @@ const HomePage = () => {
       <section className="hero-section">
         <div className="container mt-10 mx-auto px-4 py-12 text-center ">
           <h1 className="text-4xl font-bold text-white">Welcome to My Blog</h1>
-          <p className="text-xl text-gray-400 mt-4 text-bold">Insights, stories, and ideas from various domains.</p>
-          <Link to="/about" className="mt-6 inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">
-            Learn More About Us
+          <p className="text-xl text-white-400 mt-4 text-bold">Perspectives, narratives, and concepts across diverse fields</p>
+          <Link to="/about" className="mt-6 inline-block bg-orange-800 text-white px-6 py-2 rounded hover:bg-blue-600">
+             About Us
           </Link>
         </div>
       </section>
@@ -74,18 +72,18 @@ const HomePage = () => {
             {/* Mockup for latest posts */}
             
             <div  className="bg-white rounded-lg shadow-md overflow-hidden">
-            <img src={logo1}  className="w-full h-64 object-cover" />
+            <img src="https://blog.hubspot.com/hs-fs/hubfs/blog-examples_16.webp?width=2250&height=1068&name=blog-examples_16.webp"  className="w-full h-64 object-cover" />
             <div className="p-4">
-              <h2 className="text-xl font-semibold mb-2">M.M. LaFleur Blog</h2>
-              <p className="text-gray-700">M.M. LaFleur is a women’s professional apparel brand designed to bring ease and comfort into the lives of their customers. Their blog, called The — M — Dash, promotes female empowerment.Women who work in virtually any industry can read the blog to feel inspired by other businesswomen as well as learn about different aspects of being a woman in the workplace (gender equality, stereotypes, etc.). Lastly, there are blog posts related to attire including topics about what to wear on your first day, casual Fridays, and to job interviews. </p>
+              <h2 className="text-xl font-semibold mb-2">Algamus Gambling Recovery Blog</h2>
+              <p className="text-gray-700">The Algamus Gambling Recovery Blog is for anyone who is (or knows someone who is) going through gambling addiction recovery. The blog covers all topics related to gambling addiction and gambling addiction recovery including treatment, ways to get support, and how to support a loved one going through treatment. The posts are formatted in a variety of ways such as guides to self-help, guides to support, and scientific studies. </p>
             </div>
            
           </div>
             <div  className="bg-white rounded-lg shadow-md overflow-hidden">
-            <img src={logo2}  className="w-full h-64 object-cover" />
+            <img src="https://blog.hubspot.com/hs-fs/hubfs/blog-examples_17.webp?width=2250&height=1080&name=blog-examples_17.webp"  className="w-full h-64 object-cover" />
             <div className="p-4">
-              <h2 className="text-xl font-semibold mb-2">Adaptive Insights Blog</h2>
-              <p className="text-gray-700"> Adaptive Insights is a business and financial planning software company. Their blog provides insight into how active financial planning processes drive success. Their blogs include tips, latest news, and best practices related to active financial planning. Adaptive Insights even writes about specific causes and events that matter to them as a company (such as social causes, employee and customer success, etc.) so readers get to know them on a deeper level.
+              <h2 className="text-xl font-semibold mb-2">StayWell Insights Blog</h2>
+              <p className="text-gray-700"> StayWell helps businesses, healthcare providers, and others discover and create health empowerment solutions. Their blog, called StayWell Insights, does this, too — their pieces provide readers with a wide range of information about health habits, insights, studies, and trends. All of their content is supported by scientific studies and news.
               </p>
             </div>
            

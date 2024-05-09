@@ -51,7 +51,7 @@ const MyBlogs = () => {
             <h1 className="text-3xl font-semibold mb-8">My Blogs</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {blogsDisplay.map((blog) => (
-                    <div key={blog._id} className="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div key={blog._id} className="bg-gray-200 rounded-xl shadow-md overflow-hidden">
                         <img src={blog.image} alt={blog.title} className="w-full h-64 object-cover" />
                         <div className="p-4">
                             <h2 className="text-xl font-semibold mb-2">{blog.title}</h2>
