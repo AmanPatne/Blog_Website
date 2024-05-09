@@ -5,7 +5,7 @@ import Footer from './components/Footer.jsx'
 function Layout() {
   return (
     <>
-   <div className="">
+   <div className="bg-yellow-600">
    <Header/>
    <Outlet />
    <Footer/>
