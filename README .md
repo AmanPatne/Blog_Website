@@ -31,15 +31,15 @@ example:
     ```
 4. Start the backend server by running `npm start`.
     ```bash
-    cd blog-website
+    cd Blog-website
     cd backend
-    nodemon index.js
+    node index.js
    ```
 
 ### Frontend
 1. Navigate to the `frontend` directory.
 ```bash
-    cd blog-website
+    cd Blog-website
     
    ```
 2. Run `npm install` to install dependencies.
